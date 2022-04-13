@@ -5,16 +5,20 @@ This function will align two sequences based on Smith-Waterman algorithm with an
 Directions for running Smith-Waterman algorithm “SW_fun.m” from Terminal:
 
 1.	First you need to export your MATLAB directory path to the terminal path. 
-a.	For example, my MATLAB version is R2021a, and the path is: /Applications/MATLAB_R2021b.app/bin/matlab
+	
+  For example, my MATLAB version is R2021a, and the path is: /Applications/MATLAB_R2021b.app/bin/matlab
 
-b.	WRITE THIS COMMAND:
-  export PATH=/Applications/MATLAB_R2021b.app/bin/:$PATH
+WRITE THIS COMMAND:
+
+export PATH=/Applications/MATLAB_R2021b.app/bin/:$PATH
 
 2.	Now you can cd to the directory that your files are:
-a.	In my case my files are in Desktop
-i.	Input txt file       ==   input-sample1.txt
-ii.	Similarity matrix    ==   blosum62.txt
-iii.	Matlab function    ==   SW_fun.m
+
+  a.	In my case my files are in Desktop
+  
+      i.	Input txt file       ==   input-sample1.txt
+      ii.	Similarity matrix    ==   blosum62.txt
+      iii.	Matlab function    ==   SW_fun.m
 
 3.	WRITE THE FOLLOWING COMMAND:
 
